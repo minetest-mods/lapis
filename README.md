@@ -1,5 +1,5 @@
 # Minetest Mod Lapis Lazuli
-Version 1.1, License: WTFPL/CC BY-SA 3.0; See LICENSE.txt
+Version 1.2, License: WTFPL/CC BY-SA 3.0; See LICENSE.txt
 
 ![Screenshot](screenshot.high.png)
 
