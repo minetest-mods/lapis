@@ -6,7 +6,7 @@
 local modpath = minetest.get_modpath(minetest.get_current_modname())
 local S, NS = dofile(modpath .. "/intllib.lua")
 
--- LAPIS LAZULI ORE
+-- Lapis Lazuli Ore
 minetest.register_node("lapis:stone_with_lapis", {
 	description = S("Lapis Lazuli Ore"),
 	tiles = {"default_stone.png^mineral_lapislazuli.png"},
@@ -35,13 +35,13 @@ minetest.register_node("lapis:stone_with_lapis", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
---LAPIS LAZULI
+-- Lapis Item
 minetest.register_craftitem("lapis:lapis", {
 	description = S("Lapis Lazuli"),
 	inventory_image = "lapislazuli.png",
 })
 
---LAPIS LAZULI BLOCK
+-- Lapis Block
 minetest.register_node("lapis:lapisblock", {
 	description = S("Lapis Lazuli Block"),
 	tiles = {"lapislazuli_block.png"},
@@ -50,7 +50,7 @@ minetest.register_node("lapis:lapisblock", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
---LAPIS LAZULI BLOCK – CRAFTING
+-- Lapis Block Crafting
 minetest.register_craft({
 	output = 'lapis:lapisblock',
 	recipe = {
@@ -60,7 +60,7 @@ minetest.register_craft({
 	}
 })
 
---LAPIS LAZULI BLOCK – RECRAFTING
+-- Lapis Items from Lapis Block Crafting
 minetest.register_craft({
 	output = 'lapis:lapis 9',
 	recipe = {
@@ -68,8 +68,8 @@ minetest.register_craft({
 	}
 })
 
---ORE GENERATOR
---FROM -128 UNTILL -255
+-- Ore generation
+-- -128 <-> -255
 minetest.register_ore({
 	ore_type       = "scatter",
 	ore            = "lapis:stone_with_lapis",
@@ -81,7 +81,7 @@ minetest.register_ore({
 	height_max     = -128,
 })
 
---FROM -256 UNTILL -31000
+-- -256 <-> -31000
 minetest.register_ore({
 	ore_type       = "scatter",
 	ore            = "lapis:stone_with_lapis",
@@ -93,6 +93,8 @@ minetest.register_ore({
 	height_max     = -256,
 })
 
+
+-- Blue dye crafting
 minetest.register_craft({
 	output = 'dye:blue 2',
 	recipe = {
