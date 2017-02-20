@@ -2,9 +2,13 @@
 -- ===================
 -- See LICENSE.txt for licensing and README.md for other information.
 
---LAPIS LAZULI ORE
+-- load support for intllib
+local modpath = minetest.get_modpath(minetest.get_current_modname())
+local S, NS = dofile(modpath .. "/intllib.lua")
+
+-- LAPIS LAZULI ORE
 minetest.register_node("lapis:stone_with_lapis", {
-	description = "Lapis Lazuli Ore",
+	description = S("Lapis Lazuli Ore"),
 	tiles = {"default_stone.png^mineral_lapislazuli.png"},
 	is_ground_content = true,
 	groups = {cracky=2},
@@ -33,13 +37,13 @@ minetest.register_node("lapis:stone_with_lapis", {
 
 --LAPIS LAZULI
 minetest.register_craftitem("lapis:lapis", {
-	description = "Lapis Lazuli",
+	description = S("Lapis Lazuli"),
 	inventory_image = "lapislazuli.png",
 })
 
 --LAPIS LAZULI BLOCK
 minetest.register_node("lapis:lapisblock", {
-	description = "Lapis Lazuli Block",
+	description = S("Lapis Lazuli Block"),
 	tiles = {"lapislazuli_block.png"},
 	is_ground_content = true,
 	groups = {cracky=1,level=2},
