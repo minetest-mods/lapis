@@ -52,6 +52,10 @@ BlockMen (CC BY-SA 3.0):
 InfintyProject (WTFPL):
   mineral_lapislazuli.png, edited by LNJ
 
+LNJ <git@lnj.li> (CC BY-SA 3.0):
+  screenshot.png
+  screenshot.high.png
+
 
 Details of Licenses:
 --------------------
