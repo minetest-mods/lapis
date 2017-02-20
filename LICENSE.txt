@@ -1,70 +1,70 @@
-License of init.lua, *.txt, *.md, locale/*:
--------------------------------------------
-Copyright (C) 2015 LNJ <git@lnj.li>
-Copyright (C) 2017 FaceDeer <derksenmobile@gmail.com>
+Licenses of Minetest Mod Lapis Lazuli
+=====================================
+File names with stars (*) should be interpreted bash-like.
 
-This program is free software. It comes without any warranty, to
-the extent permitted by applicable law. You can redistribute it
-and/or modify it under the terms of the Do What The Fuck You Want
-To Public License, Version 2, as published by Sam Hocevar. See
-http://sam.zoy.org/wtfpl/COPYING for more details.
-
-License of intllib.lua:
------------------------
-Copyright (C) 2013 Diego Martinez (kaeza)
-
-This is free and unencumbered software released into the public domain.
-
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
-
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-
-For more information, please refer to <http://unlicense.org/>
+Files: init.lua, *.txt, *.md, *.conf, locale/*
+Copyright: 2015-2017 LNJ <git@lnj.li>
+           2017      FaceDeer <derksenmobile@gmail.com>
+License: WTFPL-2
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+ .
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+ .
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+ .
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ .
+  0. You just DO WHAT THE FUCK YOU WANT TO.
 
 
-License of media (textures, sounds, meshes):
---------------------------------------------
-(by authors)
+Files: intllib.lua
+Copyright: 2013 Diego Martinez (kaeza) <kaeza@users.sf.net>
+License: Unlicense
+ This is free and unencumbered software released into the public domain.
+ .
+ Anyone is free to copy, modify, publish, use, compile, sell, or
+ distribute this software, either in source code form or as a compiled
+ binary, for any purpose, commercial or non-commercial, and by any
+ means.
+ .
+ In jurisdictions that recognize copyright laws, the author or authors
+ of this software dedicate any and all copyright interest in the
+ software to the public domain. We make this dedication for the benefit
+ of the public at large and to the detriment of our heirs and
+ successors. We intend this dedication to be an overt act of
+ relinquishment in perpetuity of all present and future rights to this
+ software under copyright law.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+ .
+ For more information, please refer to <http://unlicense.org/>
 
-Calinou (CC BY-SA 3.0):
-  lapislazuli.png, edited by LNJ
+Files: textures/lapislazuli.png
+Copyright: Gambit
+           2016 LNJ <git@lnj.li>
+License: CC-BY-SA-3.0
 
-BlockMen (CC BY-SA 3.0):
-  lapislazuli_block.png, edited by LNJ
+Files: textures/lapislazuli_block.png
+Copyright: 2014 BlockMen <blockmen2015@gmail.com>
+           2016 LNJ <git@lnj.li>
+License: CC-BY-SA-3.0
 
-InfintyProject (WTFPL):
-  mineral_lapislazuli.png, edited by LNJ
+Files: textures/mineral_lapislazuli.png
+Copyright: InfintyProject
+           2016 LNJ <git@lnj.li>
+License: WTFPL-2
 
-LNJ <git@lnj.li> (CC BY-SA 3.0):
-  screenshot.png
-  screenshot.high.png
-
-
-Details of Licenses:
---------------------
-
-CC BY-SA 3.0:
-  CreativeCommons Attribution-ShareAlike 3.0 Unported
-  http://creativecommons.org/licenses/by-sa/3.0/
-
-WTFPL:
-  Do What The Fuck You Want To Public License
-  http://www.wtfpl.net/txt/copying/
+Files: screenshot.*
+Copyright: 2017 LNJ <git@lnj.li>
+License: CC-BY-SA-3.0
 
