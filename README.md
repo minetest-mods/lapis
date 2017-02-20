@@ -1,6 +1,8 @@
 # Minetest Mod Lapis Lazuli
 Version 1.1, License: WTFPL/CC BY-SA 3.0; See LICENSE.txt
 
+![Screenshot](screenshot.high.png)
+
 ## Description
 This mod adds lapis lazuli ore, items and blocks. The only use of it is to craft dye with it or build something blue like a swimming pool.
 
