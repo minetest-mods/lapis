@@ -21,13 +21,16 @@ msgstr ""
 "X-Generator: Weblate 2.15-dev\n"
 
 #: init.lua:11
+#, fuzzy
 msgid "Lapis Lazuli Ore"
 msgstr "Ruda Lapisu"
 
 #: init.lua:40
+#, fuzzy
 msgid "Lapis Lazuli"
 msgstr "Lapis"
 
 #: init.lua:46
+#, fuzzy
 msgid "Lapis Lazuli Block"
 msgstr "Blok Lapisu"
