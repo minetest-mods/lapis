@@ -9,7 +9,7 @@ local S, NS = dofile(modpath .. "/intllib.lua")
 -- Lapis Lazuli Ore
 minetest.register_node("lapis:stone_with_lapis", {
 	description = S("Lapis Lazuli Ore"),
-	tiles = {"default_stone.png^mineral_lapislazuli.png"},
+	tiles = {"default_stone.png^lapis_mineral_lapislazuli.png"},
 	is_ground_content = true,
 	groups = {cracky=2},
 	drop = {
@@ -38,15 +38,15 @@ minetest.register_node("lapis:stone_with_lapis", {
 -- Lapis Item
 minetest.register_craftitem("lapis:lapis", {
 	description = S("Lapis Lazuli"),
-	inventory_image = "lapislazuli.png",
+	inventory_image = "lapis_lapislazuli.png",
 })
 
 -- Lapis Block
 minetest.register_node("lapis:lapisblock", {
 	description = S("Lapis Lazuli Block"),
-	tiles = {"lapislazuli_block.png"},
+	tiles = {"lapis_lapislazuliblock.png"},
 	is_ground_content = true,
-	groups = {cracky=1,level=2},
+	groups = {cracky = 1, level = 2},
 	sounds = default.node_sound_stone_defaults(),
 })
 
