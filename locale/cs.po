@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 16:52+0100\n"
-"PO-Revision-Date: 2017-06-18 19:59+0000\n"
+"PO-Revision-Date: 2017-06-21 18:42+0000\n"
 "Last-Translator: Jakub Vaněk <vanek.jakub4@seznam.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/minetest/mod-lapis-"
 "lazuli/cs/>\n"
@@ -20,16 +20,13 @@ msgstr ""
 "X-Generator: Weblate 2.15-dev\n"
 
 #: init.lua:11
-#, fuzzy
 msgid "Lapis Lazuli Ore"
 msgstr "Ruda Lapis Lazuli"
 
 #: init.lua:40
-#, fuzzy
 msgid "Lapis Lazuli"
 msgstr "Lapis Lazuli"
 
 #: init.lua:46
-#, fuzzy
 msgid "Lapis Lazuli Block"
 msgstr "Blok Lapis Lazuli"
