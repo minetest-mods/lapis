@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 16:52+0100\n"
-"PO-Revision-Date: 2017-07-06 09:44+0000\n"
+"PO-Revision-Date: 2017-07-06 09:47+0000\n"
 "Last-Translator: Oscar <kingoscargames@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/minetest/mod-lapis-"
 "lazuli/nl/>\n"
@@ -21,12 +21,12 @@ msgstr ""
 
 #: init.lua:11
 msgid "Lapis Lazuli Ore"
-msgstr "Lapis Lazuli Erts"
+msgstr "Lapis lazuli erts"
 
 #: init.lua:40
 msgid "Lapis Lazuli"
-msgstr "Lapis Lazuli"
+msgstr "Lapis lazuli"
 
 #: init.lua:46
 msgid "Lapis Lazuli Block"
-msgstr "Lapis Lazuli Blok"
+msgstr "Lapis lazuli blok"
