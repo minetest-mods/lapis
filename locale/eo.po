@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 16:52+0100\n"
-"PO-Revision-Date: 2017-06-11 20:25+0000\n"
-"Last-Translator: yellowcrash10 <corini98@gmail.com>\n"
+"PO-Revision-Date: 2017-08-06 09:02+0000\n"
+"Last-Translator: Tirifto <tirifto@posteo.cz>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/minetest/mod-"
 "lapis-lazuli/eo/>\n"
 "Language: eo\n"
@@ -17,16 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15-dev\n"
+"X-Generator: Weblate 2.16-dev\n"
 
 #: init.lua:11
 msgid "Lapis Lazuli Ore"
-msgstr "Lapislazurita Erco"
+msgstr "Lazurita erco"
 
 #: init.lua:40
 msgid "Lapis Lazuli"
-msgstr "Lapislazurito"
+msgstr "Lazurito"
 
 #: init.lua:46
 msgid "Lapis Lazuli Block"
-msgstr "Lapislazurita Bloko"
+msgstr "Lazurita bloko"
