@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 16:52+0100\n"
 "PO-Revision-Date: 2019-01-22 18:20+0000\n"
-"Last-Translator: krzysdz <krzysdz@konto.pl>\n"
+"Last-Translator: Moose <maxis275@wp.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/minetest/"
 "mod-lapis-lazuli/pl/>\n"
 "Language: pl\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: init.lua:11
 msgid "Lapis Lazuli Ore"
-msgstr "Ruda Lazurytu"
+msgstr "Ruda lazurytu"
 
 #: init.lua:40
 msgid "Lapis Lazuli"
