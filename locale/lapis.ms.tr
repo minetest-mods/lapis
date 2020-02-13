@@ -1,0 +1,13 @@
+# textdomain: lapis
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Muhammad Nur Hidayat Yasuyoshi <muhdnurhidayat96@yahoo.com>, 2017.
+Lapis Lazuli Ore=Bijih Lapis Lazuli
+
+#: init.lua:40
+Lapis Lazuli=Lapis Lazuli
+
+#: init.lua:46
+Lapis Lazuli Block=Bongkah Lapis Lazuli
