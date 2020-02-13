@@ -1,0 +1,14 @@
+# textdomain: lapis
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Jakub Vaněk <vanek.jakub4@seznam.cz>, 2017.
+#
+Lapis Lazuli Ore=Ruda Lapis Lazuli
+
+#: init.lua:40
+Lapis Lazuli=Lapis Lazuli
+
+#: init.lua:46
+Lapis Lazuli Block=Blok Lapis Lazuli

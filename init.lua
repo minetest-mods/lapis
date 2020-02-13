@@ -4,7 +4,7 @@
 
 -- load support for intllib
 local modpath = minetest.get_modpath(minetest.get_current_modname())
-local S, NS = dofile(modpath .. "/intllib.lua")
+local S = minetest.get_translator("lapis")
 
 -- Lapis Lazuli Ore
 minetest.register_node("lapis:stone_with_lapis", {
