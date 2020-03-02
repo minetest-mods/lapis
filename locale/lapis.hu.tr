@@ -1,0 +1,14 @@
+# textdomain: lapis
+
+# Hungarian translation for PACKAGE package
+# Copyright (C) 2020 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# An0n3m0us <an0n3m0us@hotmail.com>, 2020.
+#
+Lapis Lazuli Ore=Lazurit érc
+
+#: init.lua:40
+Lapis Lazuli=Lazurit
+
+#: init.lua:46
+Lapis Lazuli Block=Lazurit blokk
