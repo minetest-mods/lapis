@@ -2,12 +2,10 @@
 -- ===================
 -- See LICENSE.txt for licensing and README.md for other information.
 
--- load support for intllib
-local modpath = minetest.get_modpath(minetest.get_current_modname())
-local S = minetest.get_translator("lapis")
+local S = core.get_translator("lapis")
 
 -- Lapis Lazuli Ore
-minetest.register_node("lapis:stone_with_lapis", {
+core.register_node("lapis:stone_with_lapis", {
 	description = S("Lapis Lazuli Ore"),
 	tiles = {"default_stone.png^lapis_mineral_lapislazuli.png"},
 	is_ground_content = true,
@@ -36,13 +34,13 @@ minetest.register_node("lapis:stone_with_lapis", {
 })
 
 -- Lapis Item
-minetest.register_craftitem("lapis:lapis", {
+core.register_craftitem("lapis:lapis", {
 	description = S("Lapis Lazuli"),
 	inventory_image = "lapis_lapislazuli.png",
 })
 
 -- Lapis Block
-minetest.register_node("lapis:lapisblock", {
+core.register_node("lapis:lapisblock", {
 	description = S("Lapis Lazuli Block"),
 	tiles = {"lapis_lapislazuliblock.png"},
 	is_ground_content = true,
@@ -51,7 +49,7 @@ minetest.register_node("lapis:lapisblock", {
 })
 
 -- Lapis Block Crafting
-minetest.register_craft({
+core.register_craft({
 	output = 'lapis:lapisblock',
 	recipe = {
 		{'lapis:lapis', 'lapis:lapis', 'lapis:lapis'},
@@ -61,7 +59,7 @@ minetest.register_craft({
 })
 
 -- Lapis Items from Lapis Block Crafting
-minetest.register_craft({
+core.register_craft({
 	output = 'lapis:lapis 9',
 	recipe = {
 		{'lapis:lapisblock'},
@@ -70,32 +68,32 @@ minetest.register_craft({
 
 -- Ore generation
 -- -128 <-> -255
-minetest.register_ore({
+core.register_ore({
 	ore_type       = "scatter",
 	ore            = "lapis:stone_with_lapis",
 	wherein        = "default:stone",
 	clust_scarcity = 16 * 16 * 16,
 	clust_num_ores = 5,
 	clust_size     = 3,
-	height_min     = -255,
-	height_max     = -128,
+	y_min          = -255,
+	y_max          = -128,
 })
 
 -- -256 <-> -31000
-minetest.register_ore({
+core.register_ore({
 	ore_type       = "scatter",
 	ore            = "lapis:stone_with_lapis",
 	wherein        = "default:stone",
 	clust_scarcity = 15 * 15 * 15,
 	clust_num_ores = 6,
 	clust_size     = 4,
-	height_min     = -31000,
-	height_max     = -256,
+	y_min          = -31000,
+	y_max          = -256,
 })
 
 
 -- Blue dye crafting
-minetest.register_craft({
+core.register_craft({
 	output = 'dye:blue 2',
 	recipe = {
 		{'lapis:lapis'},

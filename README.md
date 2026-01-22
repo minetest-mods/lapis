@@ -10,9 +10,9 @@ This mod adds lapis lazuli ore, items and blocks. The only use of it is to craft
 The mod should be playable with Minetest 0.4.8 or above. There are two dependencies from MTG or similar: "default" and "dye".
 
 ## Bug reports and suggestions
-You can report bugs or suggest ideas on [GitHub](http://github.com/lnj2/lapis/issues/new), in the [Minetest Forum](http://forum.minetest.net/viewtopic.php?id=11287) or just [email](mailto:git@lnj.li) me.
+You can report bugs or suggest ideas on [GitHub](https://github.com/minetest-mods/lapis/issues/new), in the [Minetest Forum](http://forum.luanti.org/viewtopic.php?t=11287) or just [email](mailto:git@lnj.li) me.
 
 ## Links
-* [GitHub](http://github.com/lnj2/lapis/)
-* [Minetest Forum](http://forum.minetest.net/viewtopic.php?id=11287)
+* [GitHub](https://github.com/minetest-mods/lapis)
+* [Luanti Forum](http://forum.luanti.org/viewtopic.php?t=11287)
 
